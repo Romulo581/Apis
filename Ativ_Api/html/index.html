@@ -1,0 +1,35 @@
+    <!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pokedex</title>
+        <link rel="stylesheet" href="../css/styler.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1 id="title">Pokedex</h1>
+            <div>
+                <h2 id="conTeiner_title">Buscar Pokémon</h2>
+                <input type="text" id="pokemonName" placeholder="Nome do Pokémon">
+                <button id="buton_1" onclick="buscarNome()">Buscar</button>
+                <div id="pokemonDetails"></div>
+            </div>
+            <div class="container1">
+                <h2 id="conteiner_title2">Primeiros 10 Pokémons</h2>
+                <button id="buton_2" onclick="listPokemon()">Listar</button>
+                <div id="first10Pokemons"></div>
+            </div>
+    
+            <div class="container2">
+                <h2 id="conteiner_title3">Pokémon Aleatório</h2>
+                <button id="buton_3" onclick="pokemonAleatorio()">Gerar</button>
+                <div id="randomPokemon"></div>
+            </div>
+        </div>
+        <script src="../javaScript/script.js"></script>
+    </body>
+    </html>
+    
+</body>
+</html>
